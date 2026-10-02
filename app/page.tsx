@@ -3,7 +3,7 @@ import {useMemo,useState} from 'react';
 import {Activity,ArrowUpRight,BarChart3,Bell,Bot,BrainCircuit,ChevronDown,ChevronRight,CheckCircle2,FileCheck2,FileText,Globe2,LayoutDashboard,Menu,MessageSquare,MoreHorizontal,Moon,Plus,Search,Send,Settings,ShieldCheck,Sparkles,Sun,Users,Workflow,X,AlertTriangle} from 'lucide-react';
 
 type View='Overview'|'Assistant'|'Analytics'|'Documents';
-const nav:[View,any,string][][]=[
+const nav:[View,any,string][]=[
  ['Overview',LayoutDashboard,'Workspace'],['Assistant',MessageSquare,'Workspace'],['Analytics',BarChart3,'Insights'],['Documents',FileText,'Workflows']
 ];
 const contractors=[['Sofia Martinez','Spain','Compliant','99%'],['Daniel Kim','South Korea','Review','82%'],['Amara Okafor','Nigeria','Compliant','97%'],['Noah Williams','United States','Action needed','68%'],['Mia Rossi','Italy','Compliant','95%']];
